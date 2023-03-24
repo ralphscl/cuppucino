@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce-ralph",
+  "name": "cuppucino",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -7,7 +7,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.3.4",
-    "pexels": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.9.0",
