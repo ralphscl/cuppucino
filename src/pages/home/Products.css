@@ -1,0 +1,62 @@
+.home .products {
+    padding: 5rem 10rem;
+}
+
+.home .products .gallery {
+    height: 20rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.home .products .gallery .card:nth-child(1) {
+    background-image: url('../../images/landscapes/unsplash-fahmi-fakhrudin-nzyzAUsbV0M.jpg');
+}
+
+.home .products .gallery .card:nth-child(2) {
+    background-image: url('../../images/landscapes/unsplash-teacora-rooibos-K3ymmfqBQzM.jpg');
+}
+
+.home .products .gallery .card:nth-child(3) {
+    background-image: url('../../images/landscapes/unsplash-jay-wennington-N_Y88TWmGwA.jpg');
+}
+
+.home .products .gallery .card:nth-child(4) {
+    background-image: url('../../images/landscapes/unsplash-ca-creative-z38uTGNpNnA.jpg');
+}
+
+.home .products .gallery .card:nth-child(5) {
+    background-image: url('../../images/landscapes/unsplash-gerrie-van-der-walt-2uSnxq3M4GE.jpg');
+}
+
+.home .products .gallery > .card {
+    flex: 1;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+    filter: grayscale(1);
+    border-radius: .6rem;
+}
+
+.home .products .gallery > .card svg {
+    color: white;
+    height: 5rem;
+    width: 5rem;
+
+    position: absolute;
+    margin: 1rem auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.home .products .gallery > .card:hover {
+    flex: 3;
+    filter: none;
+    border-radius: .6rem;
+}
+
+.home .products .gallery > .card:hover svg {
+    visibility: hidden;
+}

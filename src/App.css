@@ -1,0 +1,12 @@
+.App {
+    text-align: center;
+}
+
+/* Border Box fix */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
