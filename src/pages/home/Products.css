@@ -1,9 +1,16 @@
 .home .products {
-    padding: 5rem 10rem;
+    background-color: white;
+    padding: 2rem 10rem;
+}
+
+.home .products h1 {
+    margin: 0 0 1rem 0;
 }
 
 .home .products .gallery {
+    margin: 0 auto;
     height: 20rem;
+    width: 68rem;
     display: flex;
     gap: 1rem;
 }
@@ -34,9 +41,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
+    border-radius: .6rem;
     transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
     filter: grayscale(1);
-    border-radius: .6rem;
+    cursor: pointer;
 }
 
 .home .products .gallery > .card svg {

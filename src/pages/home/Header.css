@@ -1,26 +1,41 @@
 .home .header .parallax {
-    padding: 220px 10rem;
-    text-align: left;
-
-    /* The image used */
-    background-image: url("../../images/landscapes/pexels-jason-villanueva-851555.jpg");
-  
-    /* Set a specific height */
     height: 40rem;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding: 12rem 10rem;
+    text-align: left;
+}
+
+.home .header #player {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
 }
 
 .home .header .parallax .slogan {
-    color: white;
-    width: 45%;
+    color: black;
+    width: 50%;
+}
+
+.home .header .parallax .slogan h1,
+.home .header .parallax .slogan h2 {
+    line-height: 5rem;
 }
 
 .home .header .parallax .slogan h1 {
+    color: #242424;
+    font-size: 6.6rem;
+
+}
+
+.home .header .parallax .slogan h2 {
+    color: #C0AA82;
     font-size: 2rem;
-    font-weight: 900;
+
+}
+
+.home .header .parallax .slogan p {
+    color: #242424;
+    font-size: 1.2rem;
 }
