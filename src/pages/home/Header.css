@@ -1,11 +1,11 @@
 .home .header .parallax {
     height: 40rem;
-    padding: 12rem 10rem;
+    padding: 12rem 8%;
     text-align: left;
 }
 
 .home .header #player {
-    min-width: 100%;
+    width: 100%;
     min-height: 100%;
     object-fit: cover;
     position: absolute;
@@ -14,28 +14,32 @@
 }
 
 .home .header .parallax .slogan {
-    color: black;
+    color: white;
     width: 50%;
 }
 
 .home .header .parallax .slogan h1,
 .home .header .parallax .slogan h2 {
-    line-height: 5rem;
+    line-height: 2rem;
 }
 
 .home .header .parallax .slogan h1 {
-    color: #242424;
-    font-size: 6.6rem;
-
+    color: white;
+    font-size: 3rem;
 }
 
 .home .header .parallax .slogan h2 {
     color: #C0AA82;
-    font-size: 2rem;
-
+    font-size: 1.8rem;
 }
 
 .home .header .parallax .slogan p {
-    color: #242424;
     font-size: 1.2rem;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .home .header .parallax .slogan {
+        width: 100%;
+    }
+  }

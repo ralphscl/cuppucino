@@ -1,5 +1,5 @@
 import Button from '../../components/button/Button';
-import BackgroundVideo from '../../videos//pexel-engin-akyurt-1776352.mp4';
+import BackgroundVideo from '../../videos/pexel-taryn-elliot-3780231.mp4';
 import './Header.css';
 
 const Header = () => {
@@ -15,7 +15,7 @@ const Header = () => {
           </video>
 
           <div className='slogan'>
-            <h1>Take a cup</h1>
+            <h1>Relax and Take a cup</h1>
             <h2>Forget about everything in a minute.</h2>
             <p>
                 Consectetur adipiscing elit. Morbi convallis metus non euismod gravida. 

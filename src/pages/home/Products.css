@@ -1,6 +1,6 @@
 .home .products {
     background-color: white;
-    padding: 2rem 10rem;
+    padding: 2rem 8%;
 }
 
 .home .products h1 {
@@ -10,7 +10,7 @@
 .home .products .gallery {
     margin: 0 auto;
     height: 20rem;
-    width: 68rem;
+    width: min(100% - 4rem);
     display: flex;
     gap: 1rem;
 }
