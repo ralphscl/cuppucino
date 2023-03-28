@@ -1,6 +1,6 @@
 .home .header .parallax {
     height: 40rem;
-    padding: 12rem 8%;
+    padding: 12rem 10%;
     text-align: left;
 }
 
@@ -37,9 +37,40 @@
     font-size: 1.2rem;
 }
 
+@media only screen and (max-width: 1200px ) {
+    .home .header .parallax .slogan h1 {
+        font-size: 2.4rem;
+    }
+    
+    .home .header .parallax .slogan h2 {
+        font-size: 1.2rem;
+    }
 
-@media only screen and (max-width: 600px) {
+    .home .header .parallax .slogan p {
+        font-size: .8rem;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
     .home .header .parallax .slogan {
         width: 100%;
     }
-  }
+}
+
+  
+@media only screen and (max-width: 320px) {
+    .home .header .parallax {
+        padding: 10rem 10%;
+    }
+
+    .home .header .parallax .slogan h1 {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    
+    .home .header .parallax .slogan h2 {
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+}

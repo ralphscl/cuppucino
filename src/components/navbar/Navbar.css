@@ -3,7 +3,7 @@
     background-color: #161616;
     position: relative; 
     height: 7rem;
-    width: 100vw;
+    width: 100%;
 
     /* Flex */
     display: flex;
