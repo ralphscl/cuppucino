@@ -72,13 +72,27 @@
     line-height: 1.4rem;
 }
 
-@media only screen and (max-width: 1200px ) {
-    
-}
-
 
 @media only screen and (max-width: 768px) {
+    .home .highlight {
+        height: auto;
+        grid-template-columns: 100%;
+    }
     
+    .home .highlight .left {
+        padding: 0rem;
+        width: auto;
+    }
+
+    .home .highlight .left h1,
+    .home .highlight .left h2 {
+        line-height: 2rem;
+    }
+
+    .home .highlight .left svg {
+        top: 34rem;
+        left: 1rem;
+    }
 }
 
   
