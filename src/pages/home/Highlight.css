@@ -1,7 +1,7 @@
 .home .highlight {
     background-color: #242525;
     padding: 5rem 10%;
-    height: 44rem;
+    height: auto;
     text-align: left;
     position: relative;
     display: grid;
@@ -11,7 +11,7 @@
 
 .home .highlight .left {
     padding: .8rem;
-    width: 26rem;
+    width: auto;
 }
 
 .home .highlight .left h1,
@@ -72,16 +72,15 @@
     line-height: 1.4rem;
 }
 
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
     .home .highlight {
-        height: auto;
         grid-template-columns: 100%;
     }
-    
-    .home .highlight .left {
-        padding: 0rem;
-        width: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .home .highlight .right {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .home .highlight .left h1,
@@ -93,9 +92,4 @@
         top: 34rem;
         left: 1rem;
     }
-}
-
-  
-@media only screen and (max-width: 320px) {
-
 }
