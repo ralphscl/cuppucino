@@ -1,12 +1,33 @@
 .home .products {
     background-color: white;
+    padding: 6rem 10% 3rem;
     position: relative;
-    padding: 3rem 10% 3rem;
+}
+
+.home .products p {
+    font-size: 10rem;
+    font-weight: 800;
+    position: absolute;
+    top: 4%;
+    right: 12%;
+    margin: 0;
+
+    filter: alpha(opacity=5);
+    -webkit-opacity: .05;
+    -moz-opacity: .05;
+    opacity: .05;
+    z-index: 1;
+    zoom: 1;
 }
 
 .home .products h1 {
-    margin: 0 0 1rem 0;
-    z-index: 1;
+    margin: 0 0 4rem 0;
+    font-size: 2.4rem;
+    line-height: 1rem;
+}
+
+.home .products h2 {
+    color: #BCA980;
 }
 
 .home .products .gallery {
@@ -69,6 +90,18 @@
 
 .home .products .gallery > .card:hover svg {
     visibility: hidden;
+}
+
+@media only screen and (max-width: 1200) {
+    .home .products p {
+        font-size: 8rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .home .products p {
+        font-size: 6rem;
+    }
 }
 
 @media only screen and (max-width: 768px) {

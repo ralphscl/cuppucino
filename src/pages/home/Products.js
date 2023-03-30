@@ -11,7 +11,9 @@ const Products = () => {
     return (
       <>
       <div className='products'>
-        <h1>Products</h1>
+        <p>Products</p>
+        <h2>Browser our Menu</h2>
+        <h1>Recent Products</h1>
         <div className='gallery'>
           {
             ['coffee', 'tea', 'food', 'beer', 'wine'].map(item => {
