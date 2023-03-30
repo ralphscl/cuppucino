@@ -1,5 +1,5 @@
 .home .highlight {
-    background-color: #242525;
+    background-color: var(--dark-bg);
     padding: 5rem 10%;
     height: auto;
     text-align: left;
@@ -28,18 +28,18 @@
 }
 
 .home .highlight .left h2 {
-    color: #BCA980;
+    color: var(--accent-regular);
     font-weight: 900;
 }
 
 .home .highlight .left p {
-    color: #BCA980;
+    color: var(--accent-regular);
     margin-top: 2.2rem;
     font-size: 1.2rem;
 }
 
 .home .highlight .left svg {
-    color: #bca9804e;
+    color: var(--accent-lighter);
     height: 40rem;
     width: 40rem;
     position: absolute;
@@ -59,7 +59,7 @@
 }
 
 .home .highlight .right div svg {
-    color: #BCA980;
+    color: var(--accent-regular);
     width: 4rem;
     height: 4rem;
     padding: 0 0 .2rem 0;

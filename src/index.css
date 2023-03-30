@@ -1,3 +1,14 @@
+/* Color Palettes */
+:root {
+  --black: #161616;
+  
+  --accent-regular: #B3A27A;
+  --accent-lighter: #B3A27A4E;
+
+  --dark-bg: #242525;
+}
+
+/* Font Configurations */
 @font-face {
   font-family: "Kanit";
   src: local("Kanit"), url("./fonts/Kanit-Regular.ttf") format("truetype");
@@ -9,6 +20,7 @@
   font-weight: bold;
 }
 
+/* General CSS */
 body {
   margin: 0;
   font-family: 'Kanit', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

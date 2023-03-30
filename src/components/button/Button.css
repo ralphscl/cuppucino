@@ -11,12 +11,12 @@
 
 .btn-parallax.read-more {
     color: white;
-    background-color: #161616;
+    background-color: var(--black);
 }
 
 .btn-parallax.view-product {
     color: white;
-    background-color: #693411;
+    background-color: var(--accent-regular);
 }
 
 @media only screen and (max-width: 320px) {

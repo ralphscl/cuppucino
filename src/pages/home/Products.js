@@ -9,7 +9,6 @@ import './Products.css';
 
 const Products = () => {
     return (
-      <>
       <div className='products'>
         <p>Products</p>
         <h2>Browser our Menu</h2>
@@ -32,7 +31,6 @@ const Products = () => {
           }
         </div>
       </div>
-      </>
     );
   }
   

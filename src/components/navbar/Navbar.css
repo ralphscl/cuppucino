@@ -1,6 +1,6 @@
 /* Navbar Container */
 .navbar {
-    background-color: #161616;
+    background-color: var(--dark-bg);
     height: 6rem;
     width: 100%;
     position: fixed;

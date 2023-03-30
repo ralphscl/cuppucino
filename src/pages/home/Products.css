@@ -1,15 +1,14 @@
 .home .products {
-    background-color: white;
     padding: 6rem 10% 3rem;
     position: relative;
 }
 
 .home .products p {
     font-size: 10rem;
-    font-weight: 800;
+    font-weight: 900;
     position: absolute;
-    top: 4%;
-    right: 12%;
+    top: 0%;
+    right: 20%;
     margin: 0;
 
     filter: alpha(opacity=5);
@@ -27,7 +26,7 @@
 }
 
 .home .products h2 {
-    color: #BCA980;
+    color: var(--accent-regular);
 }
 
 .home .products .gallery {

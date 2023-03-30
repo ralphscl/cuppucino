@@ -17,7 +17,7 @@
 }
 
 .home .header .parallax .slogan {
-    color: white;
+    color: var(--black);
     width: 50%;
 }
 
@@ -27,12 +27,12 @@
 }
 
 .home .header .parallax .slogan h1 {
-    color: white;
+    color: var(--black);
     font-size: 3rem;
 }
 
 .home .header .parallax .slogan h2 {
-    color: #C0AA82;
+    color: var(--accent-regular);
     font-size: 1.8rem;
 }
 
@@ -42,7 +42,6 @@
 
 @media only screen and (max-width: 1200px ) {
     .home .header .parallax .slogan {
-        color: white;
         width: 60%;
     }
 
