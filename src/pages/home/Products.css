@@ -1,10 +1,12 @@
 .home .products {
     background-color: white;
-    padding: 2rem 10%;
+    position: relative;
+    padding: 3rem 10% 3rem;
 }
 
 .home .products h1 {
     margin: 0 0 1rem 0;
+    z-index: 1;
 }
 
 .home .products .gallery {

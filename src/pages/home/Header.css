@@ -60,23 +60,41 @@
 }
 
 @media only screen and (max-width: 992px) {
+    .home .header {
+        height: 28rem;
+    }
+
     .home .header .parallax {
-        padding-top: 6rem;
+        padding-top: 4rem;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .home .header .parallax {
-        padding: 2rem 10% 0 10%;
+        padding: 4rem 10% 0 10%;
         height: 34rem;    
     }
 
     .home .header .parallax .slogan {
         width: 100%;
     }
+
+    .home .header .parallax .slogan h1 {
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+    }
+    
+    .home .header .parallax .slogan h2 {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+
+    .home .header .parallax .slogan p {
+        font-size: 1rem;
+    }
 }
 
-  
+
 @media only screen and (max-width: 320px) {
     .home .header .parallax {
         padding: 1.2rem 10% 0 10%;
@@ -91,7 +109,6 @@
         font-size: 1rem;
         line-height: 1rem;
     }
-
 
     .home .header .parallax .slogan p {
         font-size: .8rem;

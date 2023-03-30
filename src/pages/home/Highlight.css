@@ -18,6 +18,7 @@
 .home .highlight .left h2 {
     padding: 0;
     margin: 0;
+    line-height: 1.6rem;
 }
 
 .home .highlight .left h1 {
@@ -61,6 +62,7 @@
     color: #BCA980;
     width: 4rem;
     height: 4rem;
+    padding: 0 0 .2rem 0;
 }
 
 .home .highlight .right div h2 {
