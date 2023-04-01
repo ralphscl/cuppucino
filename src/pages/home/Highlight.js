@@ -15,7 +15,7 @@ const Highlight = () => {
         <div className='left'>
             <h2>Who we are</h2>
             <h1>What we serve</h1>
-            <p> 
+            <p>
                 Sed sagittis sodales lobortis. Curabitur in eleifend turpis, 
                 id vehicula odio. Donec pulvinar tellus egetmagna aliquet ultricies. 
                 Praesent gravida hendrerit ex, nec eleifend sem convallis vitae.

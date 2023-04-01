@@ -1,9 +1,10 @@
 .home .products {
-    padding: 6rem 10% 3rem;
+    background-color: var(--light-bg);
+    padding: 6rem 10% 5rem;
     position: relative;
 }
 
-.home .products p {
+.home .products .bg {
     font-size: 10rem;
     font-weight: 900;
     position: absolute;
@@ -32,32 +33,32 @@
 .home .products .gallery {
     margin: 0 auto;
     height: 20rem;
-    width: auto;
+    width: 90%;
     display: flex;
     gap: 1rem;
 }
 
-.home .products .gallery .card:nth-child(1) {
+.home .products .gallery .cat-card:nth-child(1) {
     background-image: url('../../images/landscapes/unsplash-fahmi-fakhrudin-nzyzAUsbV0M.jpg');
 }
 
-.home .products .gallery .card:nth-child(2) {
-    background-image: url('../../images/landscapes/unsplash-teacora-rooibos-K3ymmfqBQzM.jpg');
+.home .products .gallery .cat-card:nth-child(2) {
+    background-image: url('../../images/landscapes/unsplash-matt-seymour-PVSCfkqcMP4.jpg');
 }
 
-.home .products .gallery .card:nth-child(3) {
-    background-image: url('../../images/landscapes/unsplash-jay-wennington-N_Y88TWmGwA.jpg');
+.home .products .gallery .cat-card:nth-child(3) {
+    background-image: url('../../images/landscapes/unsplash-louis-hansel-LIJujhJviMI.jpg');
 }
 
-.home .products .gallery .card:nth-child(4) {
+.home .products .gallery .cat-card:nth-child(4) {
     background-image: url('../../images/landscapes/unsplash-ca-creative-z38uTGNpNnA.jpg');
 }
 
-.home .products .gallery .card:nth-child(5) {
+.home .products .gallery .cat-card:nth-child(5) {
     background-image: url('../../images/landscapes/unsplash-gerrie-van-der-walt-2uSnxq3M4GE.jpg');
 }
 
-.home .products .gallery > .card {
+.home .products .gallery .cat-card {
     flex: 1;
     position: relative;
     background-position: center;
@@ -69,7 +70,7 @@
     cursor: pointer;
 }
 
-.home .products .gallery > .card svg {
+.home .products .gallery .cat-card svg {
     color: white;
     height: 5rem;
     width: 5rem;
@@ -81,14 +82,47 @@
     bottom: 0;
 }
 
-.home .products .gallery > .card:hover {
+.home .products .gallery .cat-card p {
+    color: white;
+    font-weight: 300;
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+}
+
+.home .products .gallery .cat-card.active, 
+.home .products .gallery .cat-card:hover {
     flex: 3;
     filter: none;
     border-radius: .6rem;
 }
 
-.home .products .gallery > .card:hover svg {
+.home .products .gallery .cat-card:after {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat 0 0;
+    z-index: 1;
+}
+
+
+.home .products .gallery .cat-card.active p {
+    visibility: visible;
+    animation: fadeIn 3s;
+    z-index: 2;
+}
+
+.home .products .gallery .cat-card.active svg {
     visibility: hidden;
+}
+
+.home .products .recent {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home .products .recent .prod-card {
+    background-color: white;
+    width: 30%;
 }
 
 @media only screen and (max-width: 1200) {
@@ -104,8 +138,13 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .home .products .gallery > .card svg {
+    .home .products .gallery > .cat-card svg {
         height: 2rem;
         width: 2rem;
     }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
