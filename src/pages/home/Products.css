@@ -34,7 +34,6 @@
     margin: 0 auto;
     height: 20rem;
     width: 90%;
-    max-width: 72rem;
     display: flex;
     gap: 1rem;
 }
@@ -119,6 +118,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.home .products .recent .prod-card {
+    background-color: white;
+    width: 30%;
 }
 
 @media only screen and (max-width: 1200) {

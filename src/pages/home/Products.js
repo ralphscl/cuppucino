@@ -38,6 +38,15 @@ const Products = () => {
             })
           }
         </div>
+        <div className='recent'>
+        {[1,2,3].map(item => {
+          return(
+            <div className="prod-card">
+              1
+            </div>
+          )
+        })}
+        </div>
       </div>
     );
   }
