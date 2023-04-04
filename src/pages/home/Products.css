@@ -8,8 +8,9 @@
     font-size: 10rem;
     font-weight: 900;
     position: absolute;
-    top: 0%;
-    right: 20%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     margin: 0;
 
     filter: alpha(opacity=5);
@@ -34,6 +35,7 @@
     margin: 0 auto;
     height: 20rem;
     width: 90%;
+    max-width: 72rem;
     display: flex;
     gap: 1rem;
 }
@@ -126,21 +128,35 @@
 }
 
 @media only screen and (max-width: 1200) {
-    .home .products p {
-        font-size: 8rem;
+    .home .products .gallery .cat-card p {
+        font-size: 1rem;
     }
 }
 
 @media only screen and (max-width: 992px) {
-    .home .products p {
-        font-size: 6rem;
+    .home .products .bg {
+        font-size: 8rem;
+    }
+
+    .home .products .gallery .cat-card p {
+        font-size: .6rem;
     }
 }
 
 @media only screen and (max-width: 768px) {
+    .home .products .bg {
+        font-size: 5rem;
+    }
+
     .home .products .gallery > .cat-card svg {
         height: 2rem;
         width: 2rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .home .products .bg {
+        font-size: 4rem;
     }
 }
 
