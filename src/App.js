@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 // Pages
 import Home from './pages/home/Home';
 import BlogList from './pages/blog/BlogList';
-import Blog from './pages/blog/Blog';
+import BlogPage from './pages/blog/BlogPage';
 import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
 
@@ -22,7 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/blog" element={<BlogList/>} />
-          <Route path="/blog/:blogId" element={<Blog />} />
+          <Route path="/blog/:blogId" element={<BlogPage />} />
           <Route path="/about" element={<About/>} />
           <Route path="/contact" element={<Contact/>} />
         </Routes>

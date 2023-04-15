@@ -1,3 +1,4 @@
+/* Parralax Button */
 .btn-parallax {
     display:inline-block;
     padding: .8rem 1.6rem;
@@ -12,11 +13,39 @@
 .btn-parallax.read-more {
     color: white;
     background-color: var(--black);
+    border: 2px solid var(--black);
+    transition: all .3s ease;
 }
 
 .btn-parallax.view-product {
     color: white;
     background-color: var(--accent-regular);
+    border: 2px solid var(--accent-regular);
+    transition: all .3s ease;
+}
+
+.btn-parallax:hover {
+    color: black;
+    background-color: transparent;
+    border: 2px solid var(--black);
+}
+
+/* Home Button */
+.btn-home-general {
+    color: var(--accent-regular);
+    margin: 2rem 1rem 1rem;
+    padding: 1rem 2rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    border: 2px solid var(--accent-regular);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btn-home-general:hover {
+    color: white;
+    background-color: var(--black);
+    border-color: var(--black);
 }
 
 @media only screen and (max-width: 320px) {

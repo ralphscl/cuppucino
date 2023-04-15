@@ -1,14 +1,14 @@
 .home .products {
     background-color: var(--light-bg);
-    padding: 6rem 10% 5rem;
+    padding: 6rem 10% 4rem;
     position: relative;
 }
 
 .home .products .bg {
-    font-size: 10rem;
+    font-size: 8rem;
     font-weight: 900;
     position: absolute;
-    top: 20%;
+    top: 16%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
@@ -21,13 +21,13 @@
     zoom: 1;
 }
 
-.home .products h1 {
+.home .products h1.heading {
     margin: 0 0 4rem 0;
     font-size: 2.4rem;
     line-height: 1rem;
 }
 
-.home .products h2 {
+.home .products h2.subheading {
     color: var(--accent-regular);
 }
 
@@ -146,6 +146,14 @@
 @media only screen and (max-width: 768px) {
     .home .products .bg {
         font-size: 5rem;
+    }
+
+    .home .products h1.heading { 
+        font-size: 1.8rem;  
+    } 
+
+    .home .products h2.subheading {
+        font-size: 1rem;
     }
 
     .home .products .gallery > .cat-card svg {

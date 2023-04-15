@@ -1,0 +1,142 @@
+.home .blogs {
+    background-color: var(--light-bg);
+    padding: 6rem 10% 4rem;
+    position: relative;
+}
+
+.home .blogs .bg {
+    font-size: 8rem;
+    font-weight: 900;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+
+    filter: alpha(opacity=5);
+    -webkit-opacity: .05;
+    -moz-opacity: .05;
+    opacity: .05;
+    z-index: 1;
+    zoom: 1;
+}
+
+.home .blogs h1.heading {
+    margin: 0 0 4rem 0;
+    font-size: 2.4rem;
+    line-height: 1rem;
+}
+
+.home .blogs h2.subheading {
+    color: var(--accent-regular);
+}
+
+.home .blogs .container {
+    position: relative;
+    margin: 0rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.home .blogs .container .card {
+    background-color: white;
+    height: 34rem;
+    position: relative;
+    margin: 1rem .4rem;
+}
+
+.home .blogs .container .card img {
+    height: 14rem;
+    width: 100%;
+}
+.home .blogs .container .card .content {
+    padding: 1rem;
+}
+
+.home .blogs .container .footer {
+    color: white;
+    background-color: var(--accent-regular);
+    padding: 0 .6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-between;   
+}
+
+.home .blogs .container .footer .date { 
+    font-size: 2.8rem;
+}
+
+.home .blogs .container .footer .month {
+    font-size: 1.2rem;
+    line-height: 1rem;
+    text-align: left;
+}
+
+.home .blogs .container .footer .views,
+.home .blogs .container .footer .comments {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    line-height: 2.2rem;
+}
+
+.home .blogs .container .footer svg {
+    padding: 0 .2rem;
+}
+
+.home .blogs .container .footer .views svg {
+    height: 1.4rem;
+    width: 1.4rem;
+}
+
+.home .blogs .container .footer .comments svg {
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .home .blogs .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .home .blogs .container > div:nth-child(3) .card {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .home .blogs .bg {
+        font-size: 8rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home .blogs .bg {
+        font-size: 5rem;
+    }
+
+    .home .blogs h1.heading { 
+        font-size: 1.8rem;  
+    } 
+
+    .home .blogs h2.subheading {
+        font-size: 1rem;
+    }
+
+    .home .blogs .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .home .blogs .container > div:nth-child(2) .card {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .home .blogs .bg {
+        font-size: 4rem;
+    }
+}

@@ -1,8 +1,9 @@
 # cuppucino
- Testing purpose only. All image assets do not belong to me.
- -----------------------------------------------------------
+ Testing purpose only. All image and video assets do not belong to me.
+ ---------------------------------------------------------------------
  
  This site is created to enhance my ReactJS development. I do not intend to use this site for monetization. Creating an inspired site from the coffeeking WordPress template.
+
+ Images and Videos belongs to Unsplash and Pexels. The author/owner of these assets are the file name.
  
- Base Theme:
- http://coffeeking.like-themes.com/homepage-light/
+ Inspiration: http://coffeeking.like-themes.com/homepage-light/

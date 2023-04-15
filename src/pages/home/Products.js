@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { capitalizeFirstLetter } from '../../utils/StringUtils';
+// Component
+import Button from '../../components/button/Button';
 // SVG
 import { ReactComponent as CoffeeBean } from '../../images/icons/coffee-beans.svg';
 import { ReactComponent as TeaMug } from '../../images/icons/tea-mug.svg';
@@ -14,9 +15,9 @@ const Products = () => {
 
     return (
       <div className='products'>
-        <p className='bg' >Products</p>
-        <h2>Browser our Menu</h2>
-        <h1>Recent Products</h1>
+        <p className='bg'>Products</p>
+        <h2 className='subheading'>Browser our Menu</h2>
+        <h1 className='heading'>Recent Products</h1>
         <div className='gallery'>
           {
             ['coffee', 'tea', 'food', 'beer', 'wine'].map(item => {
@@ -37,6 +38,9 @@ const Products = () => {
               )
             })
           }
+        </div>
+        <div className='action'>
+          <Button type="btn-home-general" text="view all products" />
         </div>
       </div>
     );
