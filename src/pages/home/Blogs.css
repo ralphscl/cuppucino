@@ -36,19 +36,24 @@
     margin: 0rem 1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
 }
 
 .home .blogs .container .card {
     background-color: white;
-    height: 34rem;
+    height: autow;
+    width: 26rem;
     position: relative;
-    margin: 1rem .4rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4rem;
 }
 
 .home .blogs .container .card img {
-    height: 14rem;
+    height: 16rem;
     width: 100%;
 }
+
 .home .blogs .container .card .content {
     padding: 1rem;
 }
@@ -97,6 +102,18 @@
     width: 1.2rem;
 }
 
+@media only screen and (max-width: 1650px) {
+    .home .blogs .container .card {
+        width: 22.5rem;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .home .blogs .container .card {
+        width: 20rem;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .home .blogs .container {
         grid-template-columns: repeat(2, 1fr);
@@ -110,6 +127,10 @@
 @media only screen and (max-width: 992px) {
     .home .blogs .bg {
         font-size: 8rem;
+    }
+
+    .home .blogs .container .card .content p {
+        font-size: .85rem;
     }
 }
 
@@ -127,7 +148,7 @@
     }
 
     .home .blogs .container {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
     }
 
     .home .blogs .container > div:nth-child(2) .card {

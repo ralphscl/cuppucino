@@ -1,6 +1,7 @@
 import Header from './Header';
 import Highlight from './Highlight';
 import Products from './Products';
+import Discount from './Discount';
 import Partners from './Partners';
 import Blogs from './Blogs';
 
@@ -10,8 +11,9 @@ const Home = () => {
       <Header/> 
       <Highlight/>
       <Products/>
-      <Blogs/>
+      <Discount />
       <Partners />
+      <Blogs/>
     </div>
   );
 }
