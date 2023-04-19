@@ -1,5 +1,5 @@
 // Component
-import Mastercard from '../../components/mastercard/Mastercard';
+import Membercard from '../../components/membercard/Membercard';
 import Button from '../../components/button/Button';
 // CSS
 import './Discount.css';
@@ -11,7 +11,7 @@ const Discount = () => {
             <div className='discount'>
                 <div className='container'>
                     <section>
-                        <Mastercard/>
+                        <Membercard/>
                     </section>
                     <div className='wallpaper'> </div>
                 </div>

@@ -18,9 +18,28 @@
   color: black;
   perspective: 1000px;
 }
+
+.home .discount .container .wallpaper {
+  background-image: url('../../images/wallpapers/unsplash-patrick-schneider-5xltWMpkN3E.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  height: 50rem;
+}
+  
+
+/* .home .discount .container section {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  perspective: 1000px;
+}
     
-.home .discount .container section::before{
-  content: " sad";
+.home .discount .container section::before {
+  content: " ";
   position: absolute;
   height: 240px;
   width: 240px;
@@ -29,8 +48,8 @@
   border-radius: 50%;
 }
   
-.home .discount .container section::after{
-  content: "asdas ";
+.home .discount .container section::after {
+  content: " ";
   position: absolute;
   height: 240px;
   width: 240px;
@@ -38,12 +57,4 @@
   background: linear-gradient(90deg,#06524e,#06eee2);
   border-radius: 50%;
 }
-
-.home .discount .container .wallpaper{
-  background-image: url('../../images/wallpapers/unsplash-patrick-schneider-5xltWMpkN3E.jpg');
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: cover;
-  height: 50rem;
-}
-  
+*/
