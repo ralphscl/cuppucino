@@ -10,9 +10,18 @@ const Discount = () => {
         <>
             <div className='discount'>
                 <div className='container'>
+                    <div>
+                    <h3>Special Offer</h3>
+                    <h1>Get your discount</h1>
                     <section>
                         <Membercard/>
                     </section>
+                    <p>
+                        Morbi malesuada dui in iaculis lacinia. Duis laoreet ut 
+                        liberonec tincidunt. Maecenas a eros finibus, condimentum 
+                        tortoreget, auctor nunc. Aenean a efficitur leo.
+                    </p>
+                    </div>
                     <div className='wallpaper'> </div>
                 </div>
             </div>
