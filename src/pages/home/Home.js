@@ -4,6 +4,7 @@ import Products from './Products';
 import Discount from './Discount';
 import Partners from './Partners';
 import Blogs from './Blogs';
+import Subscription from './Subscription'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Discount />
       <Partners />
       <Blogs/>
+      <Subscription />
     </div>
   );
 }

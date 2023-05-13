@@ -1,0 +1,79 @@
+.home .subscription {
+    background-color: var(--light-bg);
+    padding: 1rem 4rem 0 4rem;
+    height: 6rem;
+    transition: all .6s ease;
+}
+
+.home .subscription .container {
+    background-color: var(--accent-regular);
+    padding: 0 5%;
+    height: 10rem;
+    display: grid;
+    grid-template-columns: 33% 40% 15%;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    position: relative;
+    z-index: 2;
+}
+
+.home .subscription .container .subscribe {
+    text-align: left;
+}
+
+
+.home .subscription .container .subscribe h1 {
+    color: var(--black);
+    font-size: 2.6rem;
+    line-height: 1.8rem;
+    white-space: nowrap;
+}
+
+.home .subscription .container .subscribe h2 {
+    color: white;
+    font-size: 2.4rem;
+    line-height: 1.6rem;
+}
+
+
+.home .subscription .container .social {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+} 
+
+.home .subscription .container .social div {
+    background-color: var(--accent-secondary);
+    padding: .8rem;
+    margin: 0 .4rem;
+}
+
+.home .subscription .container .social div svg {
+    color: var(--black);
+    height: 1.2rem;
+    width: 1.2rem;
+    display: block;
+    margin: auto;
+    transition: transform .2s ease-in-out; 
+}
+
+.home .subscription .container .social div:hover svg {
+    transform: scale(1.5);
+}
+
+@media only screen and (max-width: 1200px ) {
+    .home .subscription .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 800px ) {
+    .home .subscription {
+        padding: 1rem 0 0 0;
+        height: auto;
+    }
+
+    .home .subscription .container {
+        height: 14rem;
+    }
+}
