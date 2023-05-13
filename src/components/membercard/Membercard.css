@@ -30,6 +30,7 @@
     border: 1px solid rgba(255,255,255,0.1);
     backface-visibility: hidden;
 }
+
 .membercard .card.front header {
     display: flex;
     align-items: center;

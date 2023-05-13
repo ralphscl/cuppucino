@@ -12,11 +12,20 @@
 
 .home .partners img {
     margin: 2rem 0;
-    height: 8rem;
-    width: auto;
+    width: 15%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
     filter: grayscale(100%);
     filter: alpha(opacity=30);
     -webkit-opacity: .30;
     -moz-opacity: .30;
     opacity: .30;
 }
+
+@media only screen and (max-width: 1200px ) {
+    .home .partners img {
+        height: 8rem;
+        width: auto;
+    }
+  }

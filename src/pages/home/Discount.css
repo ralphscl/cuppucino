@@ -1,14 +1,17 @@
 .home .discount {
-    padding: 6rem 10% 4rem;
-    position: relative;
+  background-color: var(--light-bg);
+  padding: 0 2%;
+  margin: 6rem 6% 4rem;
+  position: relative;
+  transition: all 0.3s ease;
 }
 
 .home .discount .container {
-    background-color: var(--light-bg);
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: center;
     align-items: center;
+    height: 50rem;
 }
 
 .home .discount .container section {
@@ -28,7 +31,44 @@
   background-size: cover;
   height: 50rem;
 }
+
+.home .discount .container section {
+  margin: 2rem 0;
+}
+
+.home .discount .container h1 {
+  color: var(--black);
+  font-size: 3rem;
+  line-height: 2rem;
+}
+
+.home .discount .container h3 {
+  color: var(--accent-regular);
+  font-size: 2rem;
+}
+
+.home .discount .container p {
+  color: var(--black);
+  font-size: 1rem;
+  line-height: 2rem;
+  padding: 0 20%;
+}
   
+@media only screen and (max-width: 1200px ) {
+  .home .discount .container {
+    grid-template-columns: 100%;
+  }
+
+  .home .discount .container .wallpaper {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px ) {
+  .home .discount {
+    margin: 0;
+  }
+}
 
 /* .home .discount .container section {
   width: 100%;

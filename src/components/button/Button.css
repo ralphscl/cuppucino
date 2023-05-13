@@ -48,6 +48,24 @@
     border-color: var(--black);
 }
 
+.btn-discount {
+    color: white;
+    background-color: var(--accent-regular);
+    margin: 2rem 1rem 1rem;
+    padding: 1rem 4rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    border: 2px solid var(--accent-regular);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btn-discount:hover {
+    color: black;
+    background-color: transparent;
+    border-color: var(--black);
+}
+
 @media only screen and (max-width: 320px) {
     .btn-parallax { 
         display: block;
