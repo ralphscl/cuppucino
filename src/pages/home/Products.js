@@ -40,7 +40,7 @@ const Products = () => {
           }
         </div>
         <div className='action'>
-          <Button type="btn-home-general" text="view all products" />
+          <Button class="btn-home-general" text="view all products" />
         </div>
       </div>
     );

@@ -66,6 +66,24 @@
     border-color: var(--black);
 }
 
+.btn-home-subscribe {
+    color: white;
+    background-color: var(--black);
+    height: 3.8rem;
+    padding: 1rem 2rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    border: 2px solid var(--black);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btn-home-subscribe:hover {
+    color: var(--black);
+    background-color: var(--accent-regular);
+    border-color: var(--black);
+}
+
 @media only screen and (max-width: 320px) {
     .btn-parallax { 
         display: block;

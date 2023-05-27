@@ -1,0 +1,8 @@
+.inp-home-subscribe {
+    padding: 1rem;
+    margin: 0;
+    width: 22rem;
+    height: 3.8rem;
+    font-size: 1.2rem;
+    border: 1px solid var(--black);
+}
