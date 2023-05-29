@@ -21,7 +21,7 @@ const Discount = () => {
                         liberonec tincidunt. Maecenas a eros finibus, condimentum 
                         tortoreget, auctor nunc. Aenean a efficitur leo.
                     </p>
-                    <Button type='btn-discount' text='Get now' />
+                    <Button class='btn-discount' text='Get now' />
                     </div>
                     <div className='wallpaper'> </div>
                 </div>

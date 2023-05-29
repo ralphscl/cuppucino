@@ -8,8 +8,8 @@ const Membercard = () => {
 
     return (
         <>
-        <div class="membercard">
-            <div class="card front">
+        <div className="membercard">
+            <div className="card front">
                 <header>
                     <span class="logo">
                         <img src={Logo} alt=""/>
@@ -26,7 +26,7 @@ const Membercard = () => {
                     </div>
                 </div>
             </div>
-            <div class="card back">
+            <div className="card back">
                 <h6>
                     For reservations, call 08000000000 
                     or email at customerservice@cuppucino.com

@@ -8,34 +8,34 @@ const Mastercard = () => {
 
     return (
         <>
-        <div class="mastercard">
-            <div class="card front">
+        <div className="mastercard">
+            <div className="card front">
                 <header>
-                    <span class="logo">
+                    <span className="logo">
                         <img src={Logo} alt=""/>
                         <h5>Master Card</h5>
                     </span>
                     <img src={Chip} alt="" class="chip"/>
                 </header>
-                <div class="details">
-                    <div class="name-number">
+                <div className="details">
+                    <div className="name-number">
                         <h6>Card Number</h6>
-                        <h5 class="number">4374 4010 2032 8754</h5>
-                        <h5 class="name">Cuppucino</h5>
+                        <h5 className="number">4374 4010 2032 8754</h5>
+                        <h5 className="name">Cuppucino</h5>
                     </div>
-                    <div class="valid-date">
+                    <div className="valid-date">
                         <h6>VALID THRU</h6>
                         <h5>03/2023</h5>
                     </div>
                 </div>
             </div>
-            <div class="card back">
+            <div className="card back">
                 <h6>
                     For customer service, call 08000000000 
                     or email at customerservice@cuppucino.com
                 </h6>
-                <span class="magnetic-strip"></span>
-                <div class="signature"><i>009</i></div>
+                <span className="magnetic-strip"></span>
+                <div className="signature"><i>009</i></div>
                 <h5>
                     This card is issued by and remains the property of mastercard. 
                     If found,please return to any Bank of America Branch or
