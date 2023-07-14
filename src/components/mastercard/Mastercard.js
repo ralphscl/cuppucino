@@ -15,7 +15,7 @@ const Mastercard = () => {
                         <img src={Logo} alt=""/>
                         <h5>Master Card</h5>
                     </span>
-                    <img src={Chip} alt="" class="chip"/>
+                    <img src={Chip} alt="" className="chip"/>
                 </header>
                 <div className="details">
                     <div className="name-number">

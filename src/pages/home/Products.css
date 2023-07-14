@@ -31,7 +31,7 @@
     color: var(--accent-regular);
 }
 
-.home .products .gallery {
+.home .products .gallery1 {
     margin: 0 auto;
     height: 20rem;
     width: 90%;
@@ -40,27 +40,7 @@
     gap: 1rem;
 }
 
-.home .products .gallery .cat-card:nth-child(1) {
-    background-image: url('../../images/wallpapers/unsplash-fahmi-fakhrudin-nzyzAUsbV0M.jpg');
-}
-
-.home .products .gallery .cat-card:nth-child(2) {
-    background-image: url('../../images/wallpapers/unsplash-matt-seymour-PVSCfkqcMP4.jpg');
-}
-
-.home .products .gallery .cat-card:nth-child(3) {
-    background-image: url('../../images/wallpapers/unsplash-louis-hansel-LIJujhJviMI.jpg');
-}
-
-.home .products .gallery .cat-card:nth-child(4) {
-    background-image: url('../../images/wallpapers/unsplash-ca-creative-z38uTGNpNnA.jpg');
-}
-
-.home .products .gallery .cat-card:nth-child(5) {
-    background-image: url('../../images/wallpapers/unsplash-gerrie-van-der-walt-2uSnxq3M4GE.jpg');
-}
-
-.home .products .gallery .cat-card {
+.home .products .gallery1 .cat-card {
     flex: 1;
     position: relative;
     background-position: center;
@@ -72,7 +52,7 @@
     cursor: pointer;
 }
 
-.home .products .gallery .cat-card svg {
+.home .products .gallery1 .cat-card svg {
     color: white;
     height: 5rem;
     width: 5rem;
@@ -84,7 +64,7 @@
     bottom: 0;
 }
 
-.home .products .gallery .cat-card p {
+.home .products .gallery1 .cat-card p {
     color: white;
     font-weight: 300;
     visibility: hidden;
@@ -92,27 +72,62 @@
     bottom: 0;
 }
 
-.home .products .gallery .cat-card.active, 
-.home .products .gallery .cat-card:hover {
+.home .products .gallery1 .cat-card.active, 
+.home .products .gallery1 .cat-card:hover {
     flex: 3;
     filter: none;
     border-radius: .6rem;
 }
 
-.home .products .gallery .cat-card:after {
+.home .products .gallery1 .cat-card:after {
     background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat 0 0;
     z-index: 1;
 }
 
 
-.home .products .gallery .cat-card.active p {
+.home .products .gallery1 .cat-card.active p {
     visibility: visible;
     animation: fadeIn 3s;
     z-index: 2;
 }
 
-.home .products .gallery .cat-card.active svg {
+.home .products .gallery1 .cat-card.active svg {
     visibility: hidden;
+}
+
+.home .products .gallery2 {
+    width: 100%;
+    display: none;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.home .products .gallery2 .items {
+    display: flex;
+    padding: 10px;
+}
+
+.home .products .gallery2 .items .item {
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-snap-align: center;
+}
+
+.home .products .gallery2 .items img {
+    width: 25rem;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.home .products .gallery2 .items p {
+    margin-top: 10px;
+    text-align: center;
+    width: auto;
 }
 
 .home .products .recent {
@@ -128,7 +143,7 @@
 }
 
 @media only screen and (max-width: 1200) {
-    .home .products .gallery .cat-card p {
+    .home .products .gallery1 .cat-card p {
         font-size: 1rem;
     }
 }
@@ -138,7 +153,7 @@
         font-size: 8rem;
     }
 
-    .home .products .gallery .cat-card p {
+    .home .products .gallery1 .cat-card p {
         font-size: .6rem;
     }
 }
@@ -156,9 +171,12 @@
         font-size: 1rem;
     }
 
-    .home .products .gallery > .cat-card svg {
-        height: 2rem;
-        width: 2rem;
+    .home .products .gallery1 {
+        display: none;
+    }
+
+    .home .products .gallery2 {
+        display: flex;
     }
 }
 

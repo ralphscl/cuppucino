@@ -15,7 +15,7 @@ const Home = () => {
       <Discount />
       <Partners />
       <Blogs/>
-      <Subscription />
+      {/* <Subscription /> */}
     </div>
   );
 }

@@ -19,8 +19,8 @@ const Home = () => {
             <h1>Weekly newsletter</h1>
         </div>
         <div className='form'>
-          <Input class='inp-home-subscribe' type='text' />
-          <Button class="btn-home-subscribe" text="Subscribe" />
+          <Input className='inp-home-subscribe' type='text' />
+          <Button className="btn-home-subscribe" text="Subscribe" />
         </div>
         <div className='social'>
             <div><Facebook /></div>

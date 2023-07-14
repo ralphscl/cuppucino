@@ -11,16 +11,16 @@ const Membercard = () => {
         <div className="membercard">
             <div className="card front">
                 <header>
-                    <span class="logo">
+                    <span className="logo">
                         <img src={Logo} alt=""/>
                     </span>
                 </header>
-                <div class="details">
-                    <div class="name-number">
+                <div className="details">
+                    <div className="name-number">
                         <h6>Membership Number</h6>
-                        <h5 class="number">4636 9765 2321 5483</h5>
+                        <h5 className="number">4636 9765 2321 5483</h5>
                     </div>
-                    <div class="valid-date">
+                    <div className="valid-date">
                         <h6>VALID THRU</h6>
                         <h5>03/2027</h5>
                     </div>
@@ -31,7 +31,7 @@ const Membercard = () => {
                     For reservations, call 08000000000 
                     or email at customerservice@cuppucino.com
                 </h6>
-                <span class="magnetic-strip"></span>
+                <span className="magnetic-strip"></span>
                 <h5>
                     This card is issued by and remains the property of cuppucino. <br/>
                 </h5>

@@ -23,8 +23,8 @@ const Header = () => {
                 tellus.
             </p>
             <div className='action'>
-              <Button class='btn-parallax read-more' text='Read More' />
-              <Button class='btn-parallax view-product' text='View Product' />
+              <Button className='btn-parallax read-more' text='Read More' />
+              <Button className='btn-parallax view-product' text='View Product' />
             </div>
           </div>
         </div>
